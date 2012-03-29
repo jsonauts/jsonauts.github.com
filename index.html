@@ -7,7 +7,7 @@
 	<link rel="stylesheet" media="print" href="print.css" />
 </head>
 <body>
-	<img id="json-logo" src="json.gif" />
+	<img id="json-logo" src="json.gif" alt="JSON logo" />
 	<h1>JSONauts</h1>
 
 	<p class="intro">As a JSONaut<sup><a href="#jsonaut-def">1</a></sup> you <a href="http://webofdata.wordpress.com/2012/03/24/why-i-luv-json/" title="Why I luv JSON &#8230; &laquo; Web of Data">luv JSON</a> no matter if used in the <a href="front-end">front-end</a>, in the <a href="back-end">back-end</a> or in <a href="apis">APIs</a>.
@@ -21,10 +21,49 @@
 	<p>If you're not familiar with JSON (how comes?) of course you want to check out <a href="http://json.org/" title="JSON">json.org</a> first. Then, go and have a look at the <a href="http://tools.ietf.org/html/rfc4627" title="RFC 4627 - The application/json Media Type for JavaScript Object Notation (JSON)">RFC4627</a> where the application/json media type is defined.</p>
 
 	<h2 id="front-end">In the front-end?</h2>
-	<p>JSON is used in jQuery, Dojo, backbone.js, etc.</p>
+	<p>JSON is used in:</p>
+	<ul>
+		<li>
+			<a href="http://documentcloud.github.com/backbone/" title="Backbone.js">Backbone.js</a>: 
+			<a href="http://documentcloud.github.com/backbone/#Model-toJSON" title="Backbone.js">model.toJSON()</a>,
+			<a href="http://documentcloud.github.com/backbone/#Collection-toJSON" title="Backbone.js">collection.toJSON()</a>,
+			see also stackoverflow: 
+			[<a href="http://stackoverflow.com/questions/5629972/integrating-json-feed-with-backbone-js" title="javascript - Integrating JSON feed with Backbone JS - Stack Overflow">1</a>], 
+			[<a href="http://stackoverflow.com/questions/6906434/accept-json-from-backbone-js-sync-in-php" title="javascript - Accept JSON from backbone.js Sync in PHP - Stack Overflow">2</a>],
+			[<a href="http://stackoverflow.com/questions/7266038/backbone-collection-fetching-with-json" title="backbone.js - backbone collection fetching with json - Stack Overflow">3</a>]
+		</li>
+		<li>
+			<a href="http://dojotoolkit.org/" title="Unbeatable JavaScript Tools - The Dojo Toolkit">Dojo</a>:
+			<a href="http://dojotoolkit.org/reference-guide/dojo/json.html" title="dojo/json &mdash; The Dojo Toolkit - Reference Guide">dojo/json</a>
+		</li>
+		<li><a href="http://jquery.com/" title="jQuery: The Write Less, Do More, JavaScript Library">jQuery</a>: 
+			<a href="http://api.jquery.com/jQuery.getJSON/" title="jQuery.getJSON() &#8211; jQuery API">getJSON()</a>, 
+			<a href="http://api.jquery.com/jQuery.parseJSON/" title="jQuery.parseJSON &#8211; jQuery API">parseJSON()</a>
+		</li>
+	</ul>
 
 	<h2 id="back-end">In the back-end?</h2>
-	<p>JSON is used in MongoDB, CouchDB, elasticsearch, Node.js, etc.</p>
+	<p>JSON is used in:</p>
+	<ul>
+		<li>
+			<a href="http://couchdb.apache.org/" title="Apache CouchDB: The Apache CouchDB Project">CouchDB</a>:
+			<a href="http://wiki.apache.org/couchdb/HTTP_Document_API" title="HTTP_Document_API - Couchdb Wiki">HTTP Document API</a>
+		</li>
+		<li>
+			<a href="http://www.elasticsearch.org/" title="elasticsearch -  - Open Source, Distributed, RESTful, Search Engine">elasticsearch</a>:
+			<a href="http://www.elasticsearch.org/guide/reference/api/index_.html" title="elasticsearch - guide - Index API">Index API</a>
+		</li>
+		<li>
+			<a href="http://www.mongodb.org/" title="MongoDB">MongoDB</a>: 
+			<a href="http://www.mongodb.org/display/DOCS/Overview+-+Writing+Drivers+and+Tools" title="Overview - Writing Drivers and Tools - MongoDB">Writing Drivers and Tools</a>
+		</li>
+
+		<li>
+			 <a href="http://nodejs.org/" title="node.js">Node.js</a>:
+			<a href="https://github.com/joyent/node/wiki/modules#wiki-parsers-json">Parsers</a>,
+			npm package <a href="http://toolbox.no.de/packages/ajax" title="The Node Toolbox - ajax">ajax</a>
+		</li>
+	</ul>
 
 	<h2 id="apis">In APIs?</h2>
 	<p>There are over 2400 APIs listed on <a href="http://www.programmableweb.com/apis/directory/1?format=JSON" title="API Directory - ProgrammableWeb">ProgrammableWeb.com</a> that use JSON.</p>
