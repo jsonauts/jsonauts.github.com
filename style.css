@@ -34,11 +34,25 @@ footer {
 	bottom: 5px;
 }
 
-#jsonaut-def{
-	margin: 50em 0;
-	font-size: 60%;
+#json-logo {
+	position: fixed;
+	left: 64%;
+	top: 2em;
+	filter: alpha(opacity=10);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=10);
+	-moz-opacity: 0.10;
+	opacity:0.10;
+}
+
+#jsonaut-def { 
+	margin: 50em 0 5em 0;
 }
 
 .intro {
 	margin: 0 0 3em 0;
+	font-size: 80%;
+}
+
+.c {
+	text-align: center;
 }
