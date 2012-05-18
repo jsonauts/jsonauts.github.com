@@ -8,19 +8,29 @@
 </head>
 <body>
 	<img id="json-logo" src="json.gif" alt="JSON logo" />
+	<div id="menu">
+		<span><a href="">Home</a></span>
+		<span><a href="#front-end">Front-end</a></span>
+		<span><a href="#back-end">Back-end and APIs</a></span>
+		<span><a href="#hypermedia">Hypermedia</a></span>
+		<span><a href="#transformation">Transformation</a></span>
+		<span><a href="#query">Query</a></span>
+		<span><a href="#schema-validator">Schema and validation</a></span>
+		<span><a href="#talks-tutorials">Talks and tutorials</a></span>
+	</div>
+	
 	<h1>JSONauts</h1>
-	<p>The ultimate reference for JSON tooling and specs</p>
+	<p>The ultimate reference for JSON tooling and specs.</p>
 
 	<div class="intro">
-	<p>As a JSONaut<sup><a href="#jsonaut-def">1</a></sup> you <a href="http://webofdata.wordpress.com/2012/03/24/why-i-luv-json/" title="Why I luv JSON &#8230; &laquo; Web of Data">luv JSON</a> no matter if used in the front-end, in the back-end or in APIs. Now dive into all the JSON goodness and if you like what you see here consider to start <a href="#contribute">contributing</a>.</p>
+	<p>As a JSONaut<sup><a href="#jsonaut-def">1</a></sup> you <a href="http://webofdata.wordpress.com/2012/03/24/why-i-luv-json/" title="Why I luv JSON &#8230; &laquo; Web of Data">luv JSON</a> no matter if used in the front-end, in the back-end or in APIs.</p>
 	</div>
 	
 	<h2 id="kick-start">Basics</h2>
 	<p>If you're not familiar with JSON of course you want to check out <a href="http://json.org/" title="JSON">json.org</a> first. Then, go and have a look at the <a href="http://tools.ietf.org/html/rfc4627" title="RFC 4627 - The application/json Media Type for JavaScript Object Notation (JSON)">RFC4627</a> where the <code>application/json</code> media type is defined.
 	</p>
 
-	<h2 id="front-end">In the front-end?</h2>
-	<p>JSON is used in:</p>
+	<h2 id="front-end">Front-end</h2>
 	<ul>
 		<li>
 			<a href="http://documentcloud.github.com/backbone/" title="Backbone.js">Backbone.js</a>: 
@@ -41,9 +51,11 @@
 		</li>
 	</ul>
 
-	<h2 id="back-end">In the back-end?</h2>
-	<p>JSON is used in:</p>
+	<h2 id="back-end">Back-end and APIs</h2>
 	<ul>
+		<li>
+			There are over 2400 APIs listed on <a href="http://www.programmableweb.com/apis/directory/1?format=JSON" title="API Directory - ProgrammableWeb">ProgrammableWeb.com</a> that use JSON.
+		</li>
 		<li>
 			<a href="http://couchdb.apache.org/" title="Apache CouchDB: The Apache CouchDB Project">CouchDB</a>:
 			<a href="http://wiki.apache.org/couchdb/HTTP_Document_API" title="HTTP_Document_API - Couchdb Wiki">HTTP Document API</a>
@@ -56,19 +68,133 @@
 			<a href="http://www.mongodb.org/" title="MongoDB">MongoDB</a>: 
 			<a href="http://www.mongodb.org/display/DOCS/Overview+-+Writing+Drivers+and+Tools" title="Overview - Writing Drivers and Tools - MongoDB">Writing Drivers and Tools</a>
 		</li>
-
 		<li>
 			 <a href="http://nodejs.org/" title="node.js">Node.js</a>:
 			<a href="https://github.com/joyent/node/wiki/modules#wiki-parsers-json">Parsers</a>,
 			npm package <a href="http://toolbox.no.de/packages/ajax" title="The Node Toolbox - ajax">ajax</a>
 		</li>
+		<li>
+			<a href="http://www.postgresql.org/" title="PostgreSQL: The world's most advanced open source database">PostgreSQL</a>: <a href="http://www.postgresql.org/about/news/1395/" title="PostgreSQL: PostgreSQL 9.2 Beta 1 Available for Testing">v9.2 announcement</a>, 
+			PostgreSQL as JSON Document Store <a href="https://gist.github.com/2715918"> gist</a>
+		</li>
 	</ul>
 
-	<h2 id="apis">In APIs?</h2>
-	<p>There are over 2400 APIs listed on <a href="http://www.programmableweb.com/apis/directory/1?format=JSON" title="API Directory - ProgrammableWeb">ProgrammableWeb.com</a> that use JSON.</p>
+	<h2 id="hypermedia">Hypermedia</h2>
+	<ul>
+		<li>
+			<a href="http://www.amundsen.com/media-types/collection/" title="Collection+JSON - Hypermedia Type: Media Types">Collection+JSON - Hypermedia Type</a>
+		</li>
+		<li>
+			<a href="http://stateless.co/hal_specification.html" title="The Hypertext Application Language">HAL - Hypertext Application Language</a>
+		</li>
+		<li>
+			<a href="http://www.odata.org/documentation/json-format" title="OData Protocol JSON Format">OData: JavaScript Object Notation (JSON) Format</a>
+		</li>
+		<li>
+			<a href="http://the-object.net/" title="The Object Network">The Object Network: Linking up our APIs</a>
+		</li>
+		<li>
+			<a href="http://tools.ietf.org/html/draft-pbryan-http-json-resource" title="A Convention for HTTP Access to JSON-Based Resources">A Convention for HTTP Access to JSON-Based Resources</a>
+		</li>
+		<li>
+			<a href="http://json-ld.org/" title="JSON-LD - JSON for Linking Data">JSON for Linking Data</a>
+		</li>
+		<li>
+			<a href="http://tools.ietf.org/html/draft-pbryan-zyp-json-ref" title="JSON Reference">JSON Reference</a>
+		</li>
+		<li>
+			<a href="http://tools.ietf.org/html/draft-pbryan-zyp-json-pointer" title="JSON Pointer">JSON Pointer</a>
+		</li>
+		<li>
+			<a href="http://tools.ietf.org/html/draft-nottingham-json-home" title="Home Documents for HTTP APIs">Home Documents for HTTP APIs</a>
+		</li>
+	</ul>
 
-	<h2 id="contribute">Contribute!</h2>
-	<p>Wanna contribute? This site is hosted at GitHub as a <a href="http://pages.github.com/" title="GitHub Pages - Home">GitHub Page</a> so if you fancy extending the listing here simply <a href="http://help.github.com/send-pull-requests/" title="Help.GitHub - Send pull requests">send a pull request</a> to <a href="https://github.com/jsonauts/jsonauts.github.com">jsonauts/jsonauts.github.com</a>.</p>
+	<h2 id="transformation">Transformation</h2>
+	<ul>
+		<li>
+			<a href="http://www.jsonml.org/" title="JsonML (JSON Markup Language)">JSON Markup Language (JsonML)</a>
+		</li>
+		<li>
+			<a href="http://developer.yahoo.com/yql/guide/json_to_json.html" title="JSON-to-JSON Transformation - YDN">JSON-to-JSON Transformation</a>
+		</li>
+		<li>
+			<a href="http://goessner.net/articles/jsont/" title="JsonT - Transforming Json">JsonT - Transforming Json</a>
+		</li>
+		<li>
+			<a href="http://www.json2html.com/" title="JSON2HTML | Transform JSON to HTML">json2html</a> - Transform JSON to HTML
+		</li>
+		<li>
+			<a href="https://github.com/mhausenblas/tride">Tride</a> - turning tabular data into entities (CSV to JSON)
+		</li>
+		<li>
+			<a href="http://www.bramstein.com/projects/xsltjson/" title="XSLTJSON: Transforming XML to JSON using XSLT - bramstein.com">XSLTJSON</a>: transforming XML to JSON using XSLT
+		</li>
+	</ul>
+
+	<h2 id="query">Query</h2>
+	<ul>
+		<li>
+			<a href="http://code.google.com/p/jaql/" title="jaql - Query Language for JavaScript(r) Object Notation (JSON) - Google Project Hosting">jaql</a> - Query Language for JSON
+		</li>
+		<li>
+			<a href="http://jsoniq.org/" title="JSONiq: A Query Language for JSON and XML">JSONiq</a> - XQuery for JSON, JSON for XQuery
+		</li>
+		<li>
+			<a href="http://goessner.net/articles/JsonPath/" title="JSONPath - XPath for JSON">JSONPath</a> - XPath for JSON
+		</li>
+		<li>
+			<a href="http://jsonpath.curiousconcept.com/" title="JSONPath Expression Tester">JSONPath Expression Tester</a>
+		</li>
+	</ul>
+
+	<h2 id="schema-validator">Schema and validation</h2>
+	<ul>
+		<li>
+			<a href="http://json-schema.org/" title="JSON Schema">JSON Schema</a>
+		</li>
+		<li>
+			<a href="http://davidwalsh.name/json-validation" title="JSON Validation with JSON Schema">JSON Validation with JSON Schema</a>
+		</li>
+		<li>
+			<a href="http://jsonlint.com/" title="JSONLint - The JSON Validator.">JSONLint</a>
+		</li>
+		<li>
+			<a href="http://code.google.com/p/jsonvalidator/" title="jsonvalidator">jsonvalidator</a>
+		</li>
+		<li>
+			<a href="http://braincast.nl/samples/jsoneditor/" title="JSON Editor">JSON Editor</a>
+		</li>
+		<li>
+			<a href="http://jsoneditor.net/" title="JSON Editor by katamari">JSON Editor</a>
+		</li>
+		<li>
+			<a href="http://www.jsoneditoronline.org/" title="JSON Editor Online - Edit and format JSON data online">JSON Editor Online</a>
+		</li>
+		<li>
+			<a href="http://jsoneditor.appspot.com/" title="Web application powered by LINB framework">JSON Editor</a>
+		</li>
+	</ul>
+	
+	<h2 id="talks-tutorials">Talks and tutorials</h2>
+	<ul>
+		<li>
+			 Doug Crockford: <a href="http://www.youtube.com/watch?v=kc8BAR7SHJI" title="Discovering JavaScript Object Notation with Douglas Crockford - YouTube">Discovering JavaScript Object Notation</a> (video)
+		</li>
+		<li>
+			Doug Crockford: <a href="http://www.youtube.com/watch?v=-C-JoyNuQJs" title="Douglas Crockford: The JSON Saga - YouTube">The JSON Saga</a> (video)
+		</li>
+		<li>
+			Drew Wilson: <a href="http://code.drewwilson.com/entry/an-introduction-to-json" title="Code | Drew Wilson.com">An Introduction to JSON</a> (video + material)
+		</li>
+		<li>
+			Steve Klabnik: <a href="http://steveklabnik.github.com/hypermedia-presentation/" title="Designing Hypermedia APIs">Designing Hypermedia APIs</a> (slides)
+		</li>
+	</ul>
+
+	<div class="trailer">
+	<p>Want to contribute? This site is hosted at GitHub as a <a href="http://pages.github.com/" title="GitHub Pages - Home">GitHub Page</a> so if you fancy extending the listing here simply <a href="http://help.github.com/send-pull-requests/" title="Help.GitHub - Send pull requests">send a pull request</a> to <a href="https://github.com/jsonauts/jsonauts.github.com">jsonauts/jsonauts.github.com</a>.</p>
+	</div>
 	
 	<p id="jsonaut-def">JSONaut is a wordplay: see <em>Jason and the <a href="http://en.wikipedia.org/wiki/Argonauts" title="Argonauts - Wikipedia, the free encyclopedia">Argonauts</a></em>.
 	
