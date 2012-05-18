@@ -4,7 +4,7 @@ body {
 	margin: 0 auto;
 	background: #f5f5f5;
 	padding: 0;
-	width: 35%;
+	width: 45%;
 	text-align: justify;
 }
 
@@ -45,7 +45,7 @@ footer {
 }
 
 #jsonaut-def { 
-	margin: 50em 0 5em 0;
+	margin: 20em 0 5em 0;
 }
 
 .intro {
